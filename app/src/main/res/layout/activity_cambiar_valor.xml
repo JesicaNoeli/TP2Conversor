@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CambiarValor">
+
+    <ImageView
+        android:id="@+id/imageCambiar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:contentDescription="@string/icono"
+        app:srcCompat="@mipmap/intercambiar" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageCambiar"
+        android:layout_marginEnd="0dp"
+        android:background="#FFC107"
+        android:gravity="center"
+        android:text="@string/conversor_de_moneda"
+        android:textSize="30sp"
+        app:autoSizeTextType="none" />
+
+    <TextView
+        android:id="@+id/textDolarVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageCambiar"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="25dp"
+        android:labelFor="@id/editDolarVal"
+        android:text="@string/valor_de_1_euro_en_dolar" />
+
+    <EditText
+        android:id="@+id/editDolarVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textDolarVal"
+        android:layout_below="@+id/textDolarVal"
+        android:ems="10"
+        android:inputType="number"
+        android:autofillHints="" tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/textEuroVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editDolarVal"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="25dp"
+        android:labelFor="@id/editEuroVal"
+        android:text="@string/_valor_de_1_dolar_en_euro" />
+
+    <EditText
+        android:id="@+id/editEuroVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textEuroVal"
+        android:layout_below="@+id/textEuroVal"
+        android:ems="10"
+        android:inputType="number"
+        android:autofillHints="" tools:targetApi="o" />
+
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editEuroVal"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:text="@string/Guardar" />
+
+    <Button
+        android:id="@+id/buttonCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonGuardar"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/cancelar" />
+
+
+</RelativeLayout>

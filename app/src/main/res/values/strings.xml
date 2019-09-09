@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TP2Conversor</string>
+    <string name="dolares">Dolares</string>
+    <string name="euros">Euros</string>
+    <string name="valor_de_convercion">Valor de convercion</string>
+    <string name="us_1">US$ 1 =</string>
+    <string name="_1_10">€ 1.10</string>
+    <string name="cambiar_valor">Cambiar Valor</string>
+    <string name="convertir_a_euros">Convertir a Euros</string>
+    <string name="convertir_a_dolar">Convertir a Dolar</string>
+    <string name="convertir">Convertir</string>
+    <string name="icono">TODO</string>
+    <string name="conversor_de_moneda">Conversor de Moneda</string>
+    <string name="Guardar">Guardar</string>
+    <string name="__1_10">1.10</string>
+    <string name="___1_10">1_10</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="valor_de_1_euro_en_dolares">valor de 1 euro en dolares</string>
+    <string name="valor_de_1_euro_en_dolar">Valor de 1 euro en dolar</string>
+    <string name="valor_de_1_dolar_en_euro">dolar en euro</string>
+    <string name="_valor_de_1_dolar_en_euro">valor de 1 dolar en euro</string>
+</resources>
